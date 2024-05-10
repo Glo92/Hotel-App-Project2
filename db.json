@@ -1,0 +1,79 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "username": "Rachel",
+            "password": "********"
+        },
+        {
+            "id": 2,
+            "username": "John",
+            "password": "***********"
+        },
+        {
+            "id": 3,
+            "username": "Doe",
+            "password": "**********"
+        }
+    ],
+    "reservations": [
+        {
+
+            "id": 1,
+            "userId": 1,
+            "bookingId": 2,
+            "partySize": 3,
+            "type": "single",
+            "status": "pending"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "bookingId": 2,
+            "partySize": 6,
+            "type": "double",
+            "status": "pending"
+        },
+        {
+
+            "id": 3,
+            "userId": 3,
+            "bookingId": 2,
+            "partySize": 4,
+            "type": "ensuite",
+            "status": "confirmed"
+        }
+    ],    
+    "bookings": [
+        {
+            "id": 1,
+            "userId": 1,
+            "time": "10:00",
+            "date": "2024-05-2",
+            "partySize": 4
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "time": "12:00",
+            "date": "2024-05-4",
+            "partySize": 5
+        },
+        {
+            "id": 3,
+            "userId": 3,
+            "time": "3:00",
+            "date": "2024-05-6",
+            "partySize": 2
+        }
+    ],
+    "footer": [
+        {
+            "contact": "+123455689",
+            "email": "dankuy@.gmail.com",
+            "about": "Our hotel offers the best services",
+            "location": "..."
+        }
+    ]
+   
+}
