@@ -1,8 +1,11 @@
+import NavBar from "../components/NavBar"
 
 
 function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <NavBar/>
+      Services</div>
   )
 }
 

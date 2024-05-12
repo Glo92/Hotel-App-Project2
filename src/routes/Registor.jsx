@@ -1,7 +1,11 @@
+import NavBar from "../components/NavBar"
 
 function Registor() {
   return (
-    <div>Registor</div>
+    <div>
+      <NavBar/>
+      
+      Registor</div>
   )
 }
 
