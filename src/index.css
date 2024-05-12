@@ -121,3 +121,50 @@ p{
   margin-bottom: 20px;
 
 }
+.form{
+  background-color: rgb(247, 161, 99);
+  margin-bottom: 0;
+  border-style: groove;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-size: 50vh;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#log{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: blue;
+}
+#label{
+  font-size: larger;
+  color: rgb(31, 26, 26);
+}
+.login-form{
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#button{
+  border: none;
+  background-color: blue;
+  font-size: large;
+  border-radius: 20%;
+  cursor: pointer;
+  padding: 7px;
+  margin-bottom: 100px;
+  margin-left: 5px;
+  margin-top: 5px;
+}

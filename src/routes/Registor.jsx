@@ -1,11 +1,12 @@
+import LoginForm from "../components/LoginForm"
 import NavBar from "../components/NavBar"
 
 function Registor() {
   return (
     <div>
       <NavBar/>
-      
-      Registor</div>
+      <LoginForm/>
+    </div>
   )
 }
 
