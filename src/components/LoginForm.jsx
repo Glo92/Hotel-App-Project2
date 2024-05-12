@@ -1,8 +1,21 @@
+import { useEffect, useState } from "react"
 
 
 
 function LoginForm() {
+    const [log, setLog] =useState([])
+    console.log(log)
 
+    useEffect(() => {
+        fetch('db.json', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+        .then((res) => res.json())
+        .then((log) => setLog(log.customers))
+    }, [])
     
   return (
     <div className='form'>
@@ -16,7 +29,7 @@ function LoginForm() {
   <label htmlFor="password" id='label'>Password:</label>
   <input type="password" id="password" name="password"/>
 
-  <button type='submit'id='button'onClick={() => alert('you logined in ')}>login</button>
+  <button type='submit'id='button'onClick={() => setLog('you logined in ')}>login</button>
 </form>
     </div>
   )
