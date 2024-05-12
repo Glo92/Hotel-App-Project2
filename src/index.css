@@ -1,7 +1,7 @@
 body{
   background-image: url("src/images/coffeeimage.jpg");
   background-size:100% 50vh;
-  margin-top: 10px;
+  margin-top: 0;
   background-repeat: no-repeat;
   background-color: rgb(1, 0, 0);
   position: relative;
@@ -21,5 +21,52 @@ nav {
 .nav-link{
   margin: 10px;
   color: white;
-  margin-bottom: 20px;
+}
+.about{
+  
+  background-color: rgb(231, 136, 12);
+  margin-top: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: larger;
+  font-family: fantasy;
+}
+p{
+  color: rgb(66, 66, 99);
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.image{
+  width: 15cm;
+  height: 10cm;
+  margin-left: 10px;
+  border-radius: 40px;
+}
+.mission{
+  flex-direction: column;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+}
+.p{
+  
+  display: flexbox;
+  justify-content: center;
+  align-items: end;
+
+
+}
+.logo{
+  width: 10cm;
+  height: 7cm;
+  margin-left: 10px;
+  border-radius: 100rcap;
+
+}
+.div{
+  color: rgb(66, 66, 99);
+
 }
