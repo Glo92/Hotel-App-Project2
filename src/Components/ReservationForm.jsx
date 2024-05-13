@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import './style.css';
+
 
 const ReservationForm = ({ onMakeReservation, customers }) => {
   // Initialize state for reservation data
