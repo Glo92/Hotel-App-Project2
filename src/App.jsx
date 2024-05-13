@@ -1,5 +1,9 @@
+ Navigation
+
+
 import React from 'react'
 import ReservationForm from './component/ReservationForm'
+ main
 
 function App() {
   return (
@@ -9,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
