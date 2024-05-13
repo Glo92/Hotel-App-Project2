@@ -1,3 +1,4 @@
+
 import LoginForm from "../components/LoginForm"
 import NavBar from "../components/NavBar"
 
@@ -6,6 +7,7 @@ function Registor() {
     <div>
       <NavBar/>
       <LoginForm/>
+      
     </div>
   )
 }

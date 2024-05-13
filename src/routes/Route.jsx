@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "./Home";
 import About from "./About"
 import Services from "./Services";
-import Registor from "./Registor";
+import Registor from "./Register";
 export const router = createBrowserRouter([
     {
         path: '/',

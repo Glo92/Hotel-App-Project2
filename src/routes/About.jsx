@@ -3,11 +3,10 @@ import NavBar from "../components/NavBar"
 
 function About() {
   return (
-    <div>
-      <NavBar/>
+  <div>
+    <NavBar/>
     <Aboutdetails/>
-
-    </div>
+  </div>
   )
 }
 export default About

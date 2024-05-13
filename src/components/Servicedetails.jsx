@@ -1,4 +1,4 @@
-import React from 'react'
+import "/src/services.css"
 
 function Servicedetails() {
   return (

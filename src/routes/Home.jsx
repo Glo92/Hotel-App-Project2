@@ -4,9 +4,9 @@ function Home() {
   return (
     <div>
       <NavBar/>
-      
-      going home</div>
+    
+      </div>
   )
 }
 
-export default Home
+export default Home;
