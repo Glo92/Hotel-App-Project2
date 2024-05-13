@@ -1,0 +1,37 @@
+/* bookings.css */
+
+/* Style for the bookings container */
+.bookings-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for each booking item */
+  .booking-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for heading within each booking item */
+  .booking-item h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  /* Style for paragraph elements within each booking item */
+  .booking-item p {
+    margin: 5px 0;
+  }
+  
+  /* Additional styling for specific elements within each booking item */
+  .booking-item .booking-details {
+    font-style: italic;
+  }
+  
+  .booking-item .booking-status {
+    font-weight: bold;
+    color: #007bff; /* Adjust color based on status */
+  }
+  
