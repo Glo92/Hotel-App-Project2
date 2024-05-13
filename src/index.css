@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+=======
+body{
+  background-image: url("src/images/coffeeimage.jpg");
+  background-size:100% 50vh;
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-color: rgb(1, 0, 0);
+  position: relative;
+}
+>>>>>>> eb1d218f11a843d72d91d79ad31f61c82da7d649
