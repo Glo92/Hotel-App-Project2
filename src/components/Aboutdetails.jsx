@@ -1,4 +1,4 @@
-import "/src/about.css"
+import "../about.css"
 
 function Aboutdetails() {
     return (
@@ -62,4 +62,4 @@ function Aboutdetails() {
     )
 }
 
-export default Aboutdetails
+export default Aboutdetails;

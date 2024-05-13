@@ -2,7 +2,7 @@
 import LoginForm from "../components/LoginForm"
 import NavBar from "../components/NavBar"
 
-function Registor() {
+function Register() {
   return (
     <div>
       <NavBar/>
@@ -12,4 +12,4 @@ function Registor() {
   )
 }
 
-export default Registor
+export default Register

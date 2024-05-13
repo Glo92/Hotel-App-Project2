@@ -1,4 +1,4 @@
-import "/src/services.css"
+import "../services.css"
 
 function Servicedetails() {
   return (

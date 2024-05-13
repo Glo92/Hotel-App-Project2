@@ -1,5 +1,6 @@
-import '/src/log.css'
-import { useEffect, useState } from "react"
+import '../log.css';
+
+import { useEffect, useState } from "react";
 
 
 const initData = {
