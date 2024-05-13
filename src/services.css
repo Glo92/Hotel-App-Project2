@@ -1,0 +1,43 @@
+.service{
+    background-color: rgb(88, 39, 3);
+  }
+  .our{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2{
+    margin-left: 50px;
+  }
+  .paragraph{
+    color: black;
+    font-size: x-large;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .tel{
+    width: 3cm;
+    height: 2cm;
+    margin-left: 250px;
+  }
+  .star{
+    width: 3cm;
+    height: 2cm;
+    margin-left: 250px;
+  }
+  .h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-left: 450px;
+    margin-right: 450px;
+  }
+  .cafe{
+    width: 12cm;
+    height: 9cm;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+  
+  }

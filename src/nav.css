@@ -1,0 +1,19 @@
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: black;
+    font-size: x-large;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+  .nav-link{
+    margin: 10px;
+    color: white;
+  }
+
+ 
+  
