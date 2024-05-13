@@ -1,0 +1,53 @@
+.last{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.last img{
+    height: 200px;
+    width: 200px;
+
+}
+.modal{
+    width: 100vw;
+    display: none;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shown{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+.modal .holder{
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input{
+    
+    border-color: aqua;
+}
+
+input:focus{
+    border-style: dotted;
+    border-color: coral;
+
+}
+
+.fetch_data{
+    width: 300px;
+}
