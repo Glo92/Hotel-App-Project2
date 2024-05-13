@@ -1,3 +1,13 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    color:whitesmoke;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+
+}
 .last{
     display: flex;
     flex-direction: row;
@@ -45,9 +55,4 @@ input{
 input:focus{
     border-style: dotted;
     border-color: coral;
-
-}
-
-.fetch_data{
-    width: 300px;
 }
