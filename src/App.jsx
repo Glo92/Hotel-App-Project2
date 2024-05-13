@@ -1,5 +1,5 @@
 import React from 'react'
-import ReservationForm from './components/ReservationForm'
+import ReservationForm from './component/ReservationForm'
 
 function App() {
   return (
