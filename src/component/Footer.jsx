@@ -1,11 +1,15 @@
 import React from 'react'
-
+import './Footer.css'
 function Footer() {
   return (
     <>
-        <h1>50</h1>
+    <div className='page'>
+    <div className='start'>
+        <div>
+            <h1>50</h1>
             <h3>coffee varieties</h3>
-    
+        </div> 
+
         <div>
             <h1>70</h1>
             <h3>coffee brand</h3>
@@ -20,6 +24,9 @@ function Footer() {
             <h1>2,000</h1>
             <h3>happy customers</h3>
         </div>
+    </div>
+
+    <div className='last'>
         <div>
             <h1>Dankuy</h1>
             <h3>Lorem ispum dolor sit amet,consectetur adipicsing elit. Nullam in nibih vehicula.</h3>
@@ -41,14 +48,10 @@ function Footer() {
             <h3>Blog</h3>
             <h3>Contact</h3>
         </div>
-
-        <div>
-            <h1>Location</h1>  
     </div>
-    
+
    
-            <button >Close</button>
-    
+    </div>
     </>
   )
 }
