@@ -23,6 +23,7 @@ Git clone git@github.com:Glo92/Hotel-App-Project2.git.
 
 # Live Link
 
+https://hotel-app-project2-r2jn9gurw-glorias-projects-2b97dfc3.vercel.app/
 
 ## Technologies used
 Javascript 
