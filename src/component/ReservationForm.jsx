@@ -49,7 +49,7 @@ const ReservationForm = ({ onMakeReservation, customers }) => {
         Party Size:
         <input type="number" value={partySize} onChange={(e) => setPartySize(e.target.value)} />
       </label>
-      <button type="submit" className='submit-button>Make Reservation</button>
+      <button type="submit" >Make Reservation</button>
     </form>
   );
 };
