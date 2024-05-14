@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './reservationForm.css';
 
 
-const ReservationForm = ({ onMakeReservation, customers }) => {
+export const ReservationForm = ({ onMakeReservation, customers }) => {
   // Initialize state for reservation data
   const [userId, setUserId] = useState('');
   const [time, setTime] = useState('');
@@ -60,4 +60,4 @@ ReservationForm.propTypes = {
   customers: PropTypes.array.isRequired
 };
 
-export default ReservationForm;
+
