@@ -2,7 +2,7 @@ import React from 'react';
 
 function BookingConfirmation({ bookingDetails }) {
   return (
-    <div>
+    <div className='booking-details'>
       <h2>Booking Confirmed!</h2>
       <p>Name: {bookingDetails.name}</p>
       <p>Email: {bookingDetails.email}</p>
