@@ -19,7 +19,7 @@ const BookingForm = ({ onBookingSubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='bookings-container'>
       <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleInputChange} />
       <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleInputChange} />
       <input type="date" name="checkInDate" value={formData.checkInDate} onChange={handleInputChange} />
