@@ -27,8 +27,8 @@ const ReservationForm = ({ onMakeReservation, customers }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
+    <form onSubmit={handleSubmit} className='form'>
+      <label className= 'label'>
         User ID:
         <select value={userId} onChange={(e) => setUserId(e.target.value)}>
           <option value="">Select User</option>
@@ -37,19 +37,19 @@ const ReservationForm = ({ onMakeReservation, customers }) => {
           ))}
         </select>
       </label>
-      <label>
+      <label className='label'>
         Time:
         <input type="time" value={time} onChange={(e) => setTime(e.target.value)} />
       </label>
-      <label>
+      <label className='label'>
         Date:
         <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
       </label>
-      <label>
+      <label className='label>
         Party Size:
         <input type="number" value={partySize} onChange={(e) => setPartySize(e.target.value)} />
       </label>
-      <button type="submit">Make Reservation</button>
+      <button type="submit" className='submit-button>Make Reservation</button>
     </form>
   );
 };
