@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+
 import './reservationForm.css';
 
 
-export const ReservationForm = ({ onMakeReservation, customers }) => {
+const ReservationForm = ({ onMakeReservation, customers }) => {
   // Initialize state for reservation data
   const [userId, setUserId] = useState('');
   const [time, setTime] = useState('');
@@ -45,19 +45,18 @@ export const ReservationForm = ({ onMakeReservation, customers }) => {
         Date:
         <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
       </label>
-      <label className='label>
+      <label className='label'>
         Party Size:
         <input type="number" value={partySize} onChange={(e) => setPartySize(e.target.value)} />
       </label>
       <button type="submit" >Make Reservation</button>
     </form>
+  
+
   );
-};
-
-// PropTypes validation
-ReservationForm.propTypes = {
-  onMakeReservation: PropTypes.func.isRequired,
-  customers: PropTypes.array.isRequired
+  
 };
 
 
+  
+export default ReservationForm;
