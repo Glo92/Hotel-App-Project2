@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import BookingForm from './Bookings/Bookings'
+import BookingForm from './Bookings/Bookings';
 import BookingConfirmation from './Bookings/Bookingdetails';
-import ReservationForm from './component/ReservationForm'
-import Footer from './component/Footer'
+import ReservationForm from './component/ReservationForm';
+import Footer from './component/Footer';
 
 const App = () => {
   const [bookingDetails, setBookingDetails] = useState(null);
   const [customers, setCustomers] = useState([]);
-
-  
 
   useEffect(() => {
     const fetchCustomers = async () => {
@@ -27,25 +25,24 @@ const App = () => {
     fetchCustomers();
   }, []);
 
-
-  const handleBookingSubmit = (data) => {
-    // Here you can make API call to your backend to save booking details
-    // For now, let's just set the booking details in state
-    setBookingDetails(data);
+  const handleMakeReservation = async (reservationData) => {
+    // Here you can make API call to your backend to save reservation details
+    // For now, let's just log the reservation data
+    console.log('Making reservation with data:', reservationData);
   };
 
   return (
     <div>
       <h1>Hotel Booking App</h1>
       {!bookingDetails ? (
-        <BookingForm onBookingSubmit={handleBookingSubmit} />
+        <BookingForm onBookingSubmit={setBookingDetails} />
       ) : (
         <BookingConfirmation bookingDetails={bookingDetails} />
       )}
-      {customers.length > 0 && <ReservationForm customers={customers}/>}
-      <Footer/>
+      {customers.length > 0 && <ReservationForm onMakeReservation={handleMakeReservation} customers={customers} />}
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
